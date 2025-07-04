@@ -21,10 +21,6 @@ aws-infra/
 
 ---
 
-## 📸 Architecture Diagram
-
----
-
 ## 🔧 Prerequisites
 
 * AWS Account with configured credentials (`aws configure`)
@@ -89,15 +85,6 @@ terraform destroy -var="key_name=your-key" -var="bucket_name=your-unique-bucket-
 * Replace `your-key` with your **actual EC2 Key Pair** name.
 * This project uses **Mumbai region (ap-south-1)** by default. You can change it in `main.tf`.
 
----
-
-## 📸 Screenshots
-
-### Terraform Apply Example
-=======
-images/terraform apply-1.png,images/terraform apply-2.png 
-### AWS Console Verification
-images/aws console-ec2.png, images/vpc-console.png
 ---
 
 ## 🧠 Author
