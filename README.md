@@ -94,9 +94,10 @@ terraform destroy -var="key_name=your-key" -var="bucket_name=your-unique-bucket-
 ## 📸 Screenshots
 
 ### Terraform Apply Example
-terraform apply-1.png, terraform apply-2.png 
+=======
+images/terraform apply-1.png,images/terraform apply-2.png 
 ### AWS Console Verification
-aws console-ec2.png, vpc-console.png
+images/aws console-ec2.png, images/vpc-console.png
 ---
 
 ## 🧠 Author
